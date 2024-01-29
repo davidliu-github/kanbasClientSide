@@ -13,7 +13,6 @@
 .wd-modules > li {
   background-color: lightgray;
   border: 1px solid gray !important;
-  border-left: none !important;
 }
 
 .wd-modules > li > div {
@@ -43,3 +42,57 @@
     color: red;
     text-decoration: none;
   }
+
+  .wd-modules a > span > i{
+    color: black;
+    text-decoration: none;
+  }
+
+  .wd-modules .list-header {
+    padding-left: 9px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .wd-modules .sub-list {
+    padding-left: 25px;
+  }
+
+    
+  .wd-modules .button-style {
+    border-width: 1px;
+  }
+
+  .wd-modules .button-style .red-white {
+    background-color: red; color: white;
+  }
+
+  .wd-modules .button-style .green-white {
+    color:green
+  }
+
+.right-pane hr{
+    margin-top: 7px;
+  }
+
+.right-pane .bold-heading {
+    padding-top: 15px; 
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.right-pane a {
+    color: red;
+    text-decoration: none;
+}
+
+.right-pane .li-bottom-margin {
+    margin-bottom: 20px;
+    list-style: none !important;
+  }
+
+.right-pane .calander-align {
+    float:right;
+    margin-top: 20px;
+}
