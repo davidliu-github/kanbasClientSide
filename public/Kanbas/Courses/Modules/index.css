@@ -72,6 +72,10 @@
     color:green
   }
 
+  .wd-modules .inline {
+    display: inline-block !important;
+  }
+
 .right-pane hr{
     margin-top: 7px;
   }
@@ -96,3 +100,10 @@
     float:right;
     margin-top: 20px;
 }
+
+.course-nav .ul-no-margin-left {
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+}
+
+
