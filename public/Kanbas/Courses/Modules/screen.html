@@ -12,7 +12,7 @@
 
 <body>
     <!-- Implement links to Kanbas and Course Navigation -->
-    <div class="d-flex container-fluid">
+    <div class="d-flex container-fluid ps-0">
         <div class="d-none d-md-block">
             <ul class="wd-kanbas-navigation">
                 <!-- Copy Kanbas Navigation Here 1111-->
@@ -34,11 +34,10 @@
                 <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i>Commons</a></li>
                 <li><a href="#"><i class="fa fa-question-circle-o" aria-hidden="true"></i><br>Help</a></li>
             </ul>
-            </ul>
         </div>
         <!---Right Main Overlay-->
         <div class="flex-grow-1">
-            <div class="wd-modules" style="padding-left: 20px !important;">
+            <div class="wd-modules" style="padding-left: 20px !important; padding-right: 14px;">
                 <i class="fa fa-bars fa-2x inline" aria-hidden="true"></i>
                 <h4 class="inline">
                     &nbsp;
@@ -47,12 +46,14 @@
                     </a>
                     > Modules
                 </h4>
-                <button class="d-none d-sm-inline d-md-none btn btn-light btn-lg btn-outline-dark ms-1 rounded-0 border pull-right inline" 
-                style="margin-top: 9px;">
-                    <div class="pt-n1" style="margin: 4px;">
-                        <i class="fa fa-chevron-down" aria-hidden="true"></i>
-                    </div>
-                </button>
+                <a href="/Kanbas/Courses/Modules/chevron.html">
+                    <button class="d-inline d-md-none btn btn-light btn-lg btn-outline-dark ms-1 rounded-0 border pull-right inline" 
+                    style="margin-top: 4px;">
+                        <div class="pt-n1" style="margin: 4px;">
+                            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                        </div>
+                    </button>
+                </a>
                 <button class="btn btn-light btn-outline-dark rounded-0 border pull-right inline" >
                     <div class="pt-n1">
                         <i class="fa fa-eye pt-3" aria-hidden="true"></i>
@@ -63,7 +64,7 @@
                 </button>
 
             </div>
-            <hr style="margin-left: 25px;"> 
+            <hr style="margin-left: 25px; margin-right: 20px;"> 
 
 
             <div class="container-fluid d-flex">
@@ -79,10 +80,10 @@
                             <div class="col-12 course-nav">
                                     <!-- Copy Course Navigation Here 2222-->
                                     <ul class="wd-navigation ul-no-margin-left">
-                                        <li class="wd-active">
+                                        <li>
                                             <a href="/Kanbas/Courses/Home/screen.html">Home</a>
                                         </li>
-                                        <li>
+                                        <li  class="wd-active">
                                             <a href="/Kanbas/Courses/Modules/screen.html">Modules</a>
                                         </li>
                                         <li><a href="http://piazza.com">Piazza</a></li>
@@ -103,7 +104,7 @@
                 </div>
                 <div class="flex-fill">
                     <!-- Copy Main Content Here 3333-->
-                    <div class="container pe-4">
+                    <div class="container-fluid pe-4">
                         <div class="row d-flex justify-content-end">
                             <div class="col-8">
                             </div>
@@ -159,7 +160,7 @@
                                     </li>
                                     <li class="list-group-item">
                                         <i class="fa fa-ellipsis-v"></i>
-                                        <label class="sub-list">what is Web Development</label>
+                                        <label class="sub-list">What is Web Development</label>
                                         <span class="float-end">
                                             <i class="fa fa-check-circle text-success"></i>
                                             <i class="fa fa-ellipsis-v ms-2"></i>
@@ -269,7 +270,7 @@
                 </div>
                 <!-- 4444 -->
                 <div class="flex-grow-0 me-2 d-none d-xl-block right-pane" style="width: 270px">
-                    <div class="container right-pane">
+                    <div class="container-fluid right-pane">
         
                         <div class="row">
         

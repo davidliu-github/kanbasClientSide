@@ -73,7 +73,7 @@
   }
 
   .wd-modules .inline {
-    display: inline-block !important;
+    display: inline-block;
   }
 
 .right-pane hr{
@@ -107,3 +107,25 @@
 }
 
 
+.chevron .banner{
+    background-color: black;
+    color: white;
+}
+
+.chevron .white-fa {
+    color: white;
+}
+
+.chevron a {
+  color: red;
+  text-decoration:none;
+}
+
+.hamburger div > .col {
+  height: 45px;
+}
+
+.hamburger a {
+  color: red;
+  text-decoration:none;
+}
