@@ -7,8 +7,8 @@ function ES5Functions() {
     
       return (
         <>
-          <h2>Functions</h2>
-          <h3>Legacy ES5 functions</h3>
+          <h4>Functions</h4>
+          <h4>Legacy ES5 functions</h4>
           twoPlusFour = { twoPlusFour }<br />
           add(2, 4) = { add(2, 4) }<br />
         </>

@@ -7,7 +7,7 @@ function ArrowFunctions() {
     
       return (
        <>
-        <h3>New ES6 arrow functions</h3>
+        <h4>New ES6 arrow functions</h4>
         threeMinusOne = {threeMinusOne}<br />
         subtract(3, 1) = {subtract(3, 1)}<br />
        </>
