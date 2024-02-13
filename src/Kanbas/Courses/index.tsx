@@ -4,6 +4,7 @@ import { HiMiniBars3 } from "react-icons/hi2";
 import CourseNavigation from "./Navigation";
 import Modules from "./Modules";
 import Home from "./Home";
+
 function Courses() {
   const { courseId } = useParams();
   const course = courses.find((course) => course._id === courseId);
