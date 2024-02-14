@@ -1,7 +1,7 @@
 [
     {
       "_id": "M101",
-      "name": "Introduction to Rocket Propulsion",
+      "name": "Resources",
       "description": "Basic principles of rocket propulsion and rocket engines.",
       "course": "RS101",
       "lessons": [
@@ -27,7 +27,7 @@
     },
     {
       "_id": "M102",
-      "name": "Fuel and Combustion",
+      "name": "Required Textbook",
       "description": "Understanding rocket fuel, combustion processes, and efficiency.",
       "course": "RS101",
       "lessons": [
@@ -53,7 +53,7 @@
     },
     {
       "_id": "M103",
-      "name": "Nozzle Design",
+      "name": "Week 0 - INTRO",
       "description": "Principles of rocket nozzle design and performance optimization.",
       "course": "RS101",
       "lessons": [
@@ -79,7 +79,7 @@
     },
     {
       "_id": "M201",
-      "name": "Fundamentals of Aerodynamics",
+      "name": "Week 1 - HTML",
       "description": "Basic aerodynamic concepts and fluid dynamics principles.",
       "course": "RS102"
     },
