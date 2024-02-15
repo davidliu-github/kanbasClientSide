@@ -41,7 +41,7 @@ function Courses() {
               </div>
             </button>
           </a>
-          <button className="btn btn-light btn-outline-dark rounded-0 border pull-right inline" >
+          <button className="btn btn-light btn-outline-dark rounded-0 border pull-right inline p-0" >
             <div className="pt-n1">
               <i className="fa fa-eye pt-3" aria-hidden="true"></i>
               <i className="d-none d-md-inline">

@@ -6,8 +6,8 @@
     "endDate": "2023-05-15", "image": "191006152638-01-pets-and-our-health.jpg"  },
     { "_id": "MK101", "name": "Introduction to Monkeys", "number": "MK101", "startDate": "2023-01-10",
     "endDate": "2023-05-15", "image": "map.webp"  },
-    { "_id": "MK102", "name": "Peeling Bannanas", "number": "RS102", "startDate": "2023-01-10",
+    { "_id": "MK102", "name": "Peeling Bannanas", "number": "MK102", "startDate": "2023-01-10",
     "endDate": "2023-05-15", "image": "images.jpg"  },
-    { "_id": "MK103", "name": "Climbing Trees", "number": "RS103", "startDate": "2023-01-10",
+    { "_id": "MK103", "name": "Climbing Trees", "number": "MK103", "startDate": "2023-01-10",
     "endDate": "2023-05-15", "image": "Zoo-animals-scaled.jpg"  }
    ]

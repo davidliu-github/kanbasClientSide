@@ -1,11 +1,21 @@
 [
-    { "_id": "A101", "title": "Propulsion Assignment", "course": "RS101" },
-    { "_id": "A102", "title": "Combustion Analysis", "course": "RS101" },
-    { "_id": "A103", "title": "Nozzle Design Project", "course": "RS101" },
-    { "_id": "A201", "title": "Aerodynamics Quiz", "course": "RS102" },
-    { "_id": "A202", "title": "Flow Analysis", "course": "RS102" },
-    { "_id": "A203", "title": "Heating Analysis", "course": "RS102" },
-    { "_id": "A301", "title": "Structural Design Task", "course": "RS103" },
-    { "_id": "A302", "title": "Orbital Calculations", "course": "RS103" },
-    { "_id": "A303", "title": "Systems Engineering Exam", "course": "RS103" }
+    { "_id": "A101", "title": "Propulsion Assignment", "course": "RS101", "dueDate" : "Sept 11 at 11:59PM", "points" : "100", "available" : true},
+    { "_id": "A102", "title": "Combustion Analysis", "course": "RS101", "dueDate" :"Sept 12 at 11:59PM", "points" : "100", "available" : true},
+    { "_id": "A103", "title": "Nozzle Design Project", "course": "RS101", "dueDate" :"Sept 13 at 11:59PM", "points" : "100", "available" : true},
+    { "_id": "A201", "title": "Aerodynamics Quiz", "course": "RS102", "dueDate" :"Sept 13 at 11:59PM", "points" : "100", "available" : true},
+    { "_id": "A202", "title": "Flow Analysis", "course": "RS102", "dueDate" :"Sept 12 at 11:59PM", "points" : "100", "available" : true},
+    { "_id": "A203", "title": "Heating Analysis", "course": "RS102", "dueDate" :"Sept 13 at 11:59PM", "points" : "100", "available" : true},
+    { "_id": "A301", "title": "Structural Design Task", "course": "RS103", "dueDate" :"Sept 11 at 11:59PM", "points" : "100", "available" : true},
+    { "_id": "A302", "title": "Orbital Calculations", "course": "RS103", "dueDate" :"Sept 12 at 11:59PM", "points" : "100", "available" : true},
+    { "_id": "A303", "title": "Systems Engineering Exam", "course": "RS103", "dueDate" :"Sept 13 at 11:59PM", "points" : "100", "available" : true},
+
+    { "_id": "A1", "title": "Habitat Assignment", "course": "MK101", "dueDate" : "Sept 11 at 11:59PM", "points" : "100", "available" : true},
+    { "_id": "A2", "title": "Monkey Lab", "course": "MK101", "dueDate" :"Sept 12 at 11:59PM", "points" : "50", "available" : true},
+    { "_id": "A3", "title": "Anatomy Quiz", "course": "MK101", "dueDate" :"Sept 13 at 11:59PM", "points" : "60", "available" : false},
+    { "_id": "A1", "title": "Peeling Assignment", "course": "MK102", "dueDate" :"Sept 11 at 11:59PM", "points" : "100", "available" : true},
+    { "_id": "A2", "title": "Bannana Lab", "course": "MK102", "dueDate" :"Sept 12 at 11:59PM", "points" : "50", "available" : true},
+    { "_id": "A3", "title": "Identification Quiz", "course": "MK102", "dueDate" :"Sept 13 at 11:59PM", "points" : "60", "available" : false},
+    { "_id": "A1", "title": "Tree Assignment", "course": "MK103", "dueDate" :"Sept 11 at 11:59PM", "points" : "100", "available" : true},
+    { "_id": "A2", "title": "Tree Climbing Lab", "course": "MK103", "dueDate" :"Sept 12 at 11:59PM", "points" : "50", "available" : true},
+    { "_id": "A3", "title": "World Tree Climbing Exam", "course": "MK103", "dueDate" :"Sept 13 at 11:59PM", "points" : "60", "available" : false}
   ]
