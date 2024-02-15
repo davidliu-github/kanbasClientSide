@@ -6,10 +6,8 @@
     "endDate": "2023-05-15", "image": "191006152638-01-pets-and-our-health.jpg"  },
     { "_id": "MK101", "name": "Introduction to Monkeys", "number": "MK101", "startDate": "2023-01-10",
     "endDate": "2023-05-15", "image": "map.webp"  },
-    { "_id": "RS102", "name": "Peeling Bannanas", "number": "RS102", "startDate": "2023-01-10",
+    { "_id": "MK102", "name": "Peeling Bannanas", "number": "RS102", "startDate": "2023-01-10",
     "endDate": "2023-05-15", "image": "images.jpg"  },
-    { "_id": "RS103", "name": "Climbing Trees", "number": "RS103", "startDate": "2023-01-10",
-    "endDate": "2023-05-15", "image": "Zoo-animals-scaled.jpg"  },
-    { "_id": "WM100", "name": "Wave Management", "number": "WM100", "startDate": "2023-01-10",
-    "endDate": "2023-05-15", "image": "960x0.webp"  }
+    { "_id": "MK103", "name": "Climbing Trees", "number": "RS103", "startDate": "2023-01-10",
+    "endDate": "2023-05-15", "image": "Zoo-animals-scaled.jpg"  }
    ]

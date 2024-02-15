@@ -10,10 +10,10 @@ function ModuleList() {
   return (
     <>
       {/* <!-- Add buttons here --> */}
-      <ul className="list-group wd-modules">
+      <ul className="list-group wd-modules rounded-0">
         {modulesList.map((module) => (
           <li
-            className="list-group-item"
+            className="list-group-item p-0 rounded-0"
             onClick={() => setSelectedModule(module)}>
             <div>
               <FaEllipsisV className="me-2" />
@@ -25,9 +25,9 @@ function ModuleList() {
               </span>
             </div>
             {selectedModule._id === module._id && (
-              <ul className="list-group">
+              <ul className="list-group rounded-0">
                 {module.lessons?.map((lesson) => (
-                  <li className="list-group-item">
+                  <li className="list-group-item rounded-0">
                     <FaEllipsisV className="me-2" />
                     {lesson.name}
                     <span className="float-end">

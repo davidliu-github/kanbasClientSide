@@ -7,6 +7,7 @@ import Home from "./Home";
 import "./index.css";
 import "../libs/bootstrap/bootstrap.min.css"
 import "../libs/font-awesome/css/font-awesome.min.css"
+import Assignments from "./Assignments";
 
 function Courses() {
   const { courseId } = useParams();
@@ -28,7 +29,7 @@ function Courses() {
           <h4 className="inline">
             &nbsp;
             <a href="#">
-              CS4550.12631.202410
+            {course?.number} {course?.startDate}
             </a>
             {topText}
           </h4>
@@ -78,8 +79,7 @@ function Courses() {
                 <Route path="/" element={<Navigate to="Home" />} />
                 <Route path="Home" element={<Home/>} />
                 <Route path="Modules" element={<Modules />} />
-                <Route path="Assignments"
-                  element={<h1>Assignments</h1>} />
+                <Route path="Assignments" element={<Assignments/>} />
                 <Route path="Assignments/:assignmentId"
                   element={<h1>Assignment Editor</h1>} />
                 <Route path="Grades" element={<h1>Grades</h1>} />
