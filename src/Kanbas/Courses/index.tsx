@@ -9,7 +9,7 @@ import "../libs/bootstrap/bootstrap.min.css"
 import "../libs/font-awesome/css/font-awesome.min.css"
 import Assignments from "./Assignments";
 
-function Courses() {
+function Courses({ courses }: { courses: any[]; }) {
   const { courseId } = useParams();
   const course = courses.find((course) => course._id === courseId);
   const topText = " > Modules"
