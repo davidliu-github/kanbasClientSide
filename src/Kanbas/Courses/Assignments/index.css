@@ -1,0 +1,10 @@
+.ig-row {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.right {
+    margin-left:auto;
+}

@@ -1,0 +1,352 @@
+[
+  {
+    "_id": "M101",
+    "name": "Introduction to Rocket Propulsion",
+    "description": "Basic principles of rocket propulsion and rocket engines.",
+    "course": "RS101",
+    "lessons": [
+      {
+        "_id": "L101",
+        "name": "History of Rocketry",
+        "description": "A brief history of rocketry and space exploration.",
+        "module": "M101"
+      },
+      {
+        "_id": "L102",
+        "name": "Rocket Propulsion Fundamentals",
+        "description": "Basic principles of rocket propulsion.",
+        "module": "M101"
+      },
+      {
+        "_id": "L103",
+        "name": "Rocket Engine Types",
+        "description": "Overview of different types of rocket engines.",
+        "module": "M101"
+      }
+    ]
+  },
+  {
+    "_id": "M102",
+    "name": "Fuel and Combustion",
+    "description": "Understanding rocket fuel, combustion processes, and efficiency.",
+    "course": "RS101",
+    "lessons": [
+      {
+        "_id": "L201",
+        "name": "Rocket Fuel",
+        "description": "Overview of different types of rocket fuels.",
+        "module": "M102"
+      },
+      {
+        "_id": "L202",
+        "name": "Combustion Processes",
+        "description": "Understanding combustion processes and efficiency.",
+        "module": "M102"
+      },
+      {
+        "_id": "L203",
+        "name": "Combustion Instability",
+        "description": "Understanding combustion instability and mitigation.",
+        "module": "M102"
+      }
+    ]
+  },
+  {
+    "_id": "M103",
+    "name": "Nozzle Design",
+    "description": "Principles of rocket nozzle design and performance optimization.",
+    "course": "RS101",
+    "lessons": [
+      {
+        "_id": "L301",
+        "name": "Nozzle Design",
+        "description": "Overview of different types of rocket nozzles.",
+        "module": "M103"
+      },
+      {
+        "_id": "L302",
+        "name": "Nozzle Performance",
+        "description": "Understanding nozzle performance and efficiency.",
+        "module": "M103"
+      },
+      {
+        "_id": "L303",
+        "name": "Nozzle Optimization",
+        "description": "Optimizing nozzle design for specific applications.",
+        "module": "M103"
+      }
+    ]
+  },
+  {
+    "_id": "M201",
+    "name": "Fundamentals of Aerodynamics",
+    "description": "Basic aerodynamic concepts and fluid dynamics principles.",
+    "course": "RS102"
+  },
+  {
+    "_id": "M202",
+    "name": "Subsonic and Supersonic Flow",
+    "description": "Understanding subsonic and supersonic aerodynamic behaviors.",
+    "course": "RS102"
+  },
+  {
+    "_id": "M203",
+    "name": "Aerodynamic Heating",
+    "description": "Study of aerodynamic heating and thermal protection systems.",
+    "course": "RS102"
+  },
+  {
+    "_id": "M301",
+    "name": "Spacecraft Structural Design",
+    "description": "Fundamentals of designing spacecraft structures and materials selection.",
+    "course": "RS103"
+  },
+  {
+    "_id": "M302",
+    "name": "Orbital Mechanics",
+    "description": "Understanding orbital dynamics and mission planning.",
+    "course": "RS103"
+  },
+  {
+    "_id": "M303",
+    "name": "Spacecraft Systems Engineering",
+    "description": "Overview of spacecraft systems and subsystems engineering.",
+    "course": "RS103"
+  },
+  {
+    "_id": "M500",
+    "name": "Syllabus",
+    "description": "Description of the class.",
+    "course": "MK101",
+    "lessons": [
+      {
+        "_id": "L101",
+        "name": "Course Planner",
+        "description": "Schedule of the class.",
+        "module": "M500"
+      },
+      {
+        "_id": "L102",
+        "name": "Grade Distribution",
+        "description": "A map of numerical grades to letter grades.",
+        "module": "M500"
+      },
+      {
+        "_id": "L103",
+        "name": "Overview of Homeworks and Exams",
+        "description": "Brief cover of Homeworks and Exams",
+        "module": "M500"
+      }
+    ]
+  },
+  {
+    "_id": "M501",
+    "name": "History of Monkeys",
+    "description": "Relationship with Humans",
+    "course": "MK101",
+    "lessons": [
+      {
+        "_id": "L201",
+        "name": "Experiments on Monkeys",
+        "description": "Needles, test subjects and more.",
+        "module": "M501"
+      },
+      {
+        "_id": "L202",
+        "name": "Monkeys in Space",
+        "description": "The first monkeys in space.",
+        "module": "M501"
+      },
+      {
+        "_id": "L203",
+        "name": "Monkeys in the Media",
+        "description": "Monkeys in the media and public perception",
+        "module": "M501"
+      }
+    ]
+  },
+  {
+    "_id": "M502",
+    "name": "Anatomy of Monkeys",
+    "description": "Understanding the anatomy of monkeys.",
+    "course": "MK101",
+    "lessons": [
+      {
+        "_id": "L301",
+        "name": "Skeletal Structure",
+        "description": "Understanding the skeletal structure of monkeys.",
+        "module": "M502"
+      },
+      {
+        "_id": "L302",
+        "name": "Muscular Structure",
+        "description": "Understanding the muscular structure of monkeys.",
+        "module": "M502"
+      },
+      {
+        "_id": "L303",
+        "name": "Digestive System",
+        "description": "Understanding the digestive system of monkeys.",
+        "module": "M502"
+      }
+    ]
+  },
+  {
+    "_id": "M600",
+    "name": "Introduction to Peeling Bananas",
+    "description": "Basic principles of peeling bananas and banana types.",
+    "course": "MK102",
+    "lessons": [
+      {
+        "_id": "L101",
+        "name": "Approaches to Peeling",
+        "description": "Basic principles of peeling bananas",
+        "module": "M600"
+      },
+      {
+        "_id": "L102",
+        "name": "Top or Bottom?",
+        "description": "Differences between peeling bananas from the top or the bottom",
+        "module": "M600"
+      },
+      {
+        "_id": "L103",
+        "name": "Preferential Ripeness",
+        "description": "The ideal time to eat a banana according to its ripeness",
+        "module": "M600"
+      }
+    ]
+  },
+  {
+    "_id": "M601",
+    "name": "Advanced Banana Recipes",
+    "description": "Exploring complex recipes and dishes using bananas.",
+    "course": "MK102",
+    "lessons": [
+      {
+        "_id": "L201",
+        "name": "Banana Smoothies Masterclass",
+        "description": "Learning to make delicious and nutritious banana smoothies.",
+        "module": "M601"
+      },
+      {
+        "_id": "L202",
+        "name": "Banana Bread Baking",
+        "description": "Mastering the art of baking banana bread with various recipes.",
+        "module": "M601"
+      },
+      {
+        "_id": "L203",
+        "name": "Banana Desserts Galore",
+        "description": "Creating mouthwatering desserts using bananas as the star ingredient.",
+        "module": "M601"
+      }
+    ]
+  },
+  {
+    "_id": "M602",
+    "name": "Banana Cultivation Techniques",
+    "description": "Understanding best practices for cultivating and harvesting bananas.",
+    "course": "MK102",
+    "lessons": [
+      {
+        "_id": "L301",
+        "name": "Banana Plantation Management",
+        "description": "Optimizing banana plantation operations for maximum yield and quality.",
+        "module": "M602"
+      },
+      {
+        "_id": "L302",
+        "name": "Harvesting and Post-Harvest Handling",
+        "description": "Techniques for harvesting bananas and ensuring post-harvest freshness.",
+        "module": "M602"
+      },
+      {
+        "_id": "L303",
+        "name": "Pest and Disease Management",
+        "description": "Identifying and managing common pests and diseases affecting banana plants.",
+        "module": "M602"
+      }
+    ]
+  },
+
+    {
+      "_id": "M700",
+      "name": "Introduction to Tree Climbing",
+      "description": "Basic principles and techniques of climbing trees safely.",
+      "course": "MK103",
+      "lessons": [
+        {
+          "_id": "L101",
+          "name": "Equipment and Gear",
+          "description": "Introduction to the necessary equipment and gear for tree climbing.",
+          "module": "M700"
+        },
+        {
+          "_id": "L102",
+          "name": "Tree Identification",
+          "description": "Learning to identify different types of trees suitable for climbing.",
+          "module": "M700"
+        },
+        {
+          "_id": "L103",
+          "name": "Safety Measures",
+          "description": "Understanding safety protocols and precautions while climbing trees.",
+          "module": "M700"
+        }
+      ]
+    },
+    {
+      "_id": "M701",
+      "name": "Advanced Tree Climbing Techniques",
+      "description": "Exploring advanced techniques and maneuvers for experienced tree climbers.",
+      "course": "MK103",
+      "lessons": [
+        {
+          "_id": "L201",
+          "name": "Branching and Limb Walking",
+          "description": "Mastering techniques for moving between branches and walking on limbs.",
+          "module": "M701"
+        },
+        {
+          "_id": "L202",
+          "name": "Vertical Ascents and Descents",
+          "description": "Learning efficient methods for ascending and descending trees vertically.",
+          "module": "M701"
+        },
+        {
+          "_id": "L203",
+          "name": "Tree Climbing Safety Gear",
+          "description": "Exploring specialized safety gear and its importance in tree climbing.",
+          "module": "M701"
+        }
+      ]
+    },
+    {
+      "_id": "M702",
+      "name": "Arboriculture and Tree Care",
+      "description": "Understanding the importance of tree care and conservation while climbing.",
+      "course": "MK103",
+      "lessons": [
+        {
+          "_id": "L301",
+          "name": "Pruning and Tree Maintenance",
+          "description": "Learning proper pruning techniques and general tree maintenance.",
+          "module": "M702"
+        },
+        {
+          "_id": "L302",
+          "name": "Environmental Impact",
+          "description": "Understanding the environmental impact of tree climbing and how to minimize it.",
+          "module": "M702"
+        },
+        {
+          "_id": "L303",
+          "name": "Tree Climbing Ethics",
+          "description": "Exploring ethical considerations and responsibilities of tree climbers.",
+          "module": "M702"
+        }
+      ]
+    }
+]
+  

@@ -1,0 +1,13 @@
+[ { "_id": "RS101", "name": "Rocket Propulsion", "number": "RS4550", "startDate": "2023-01-10",
+    "endDate": "2023-05-15", "image": "191006152638-01-pets-and-our-health.jpg"  },
+  { "_id": "RS102", "name": "Aerodynamics", "number": "RS4560", "startDate": "2023-01-10",
+    "endDate": "2023-05-15", "image": "191006152638-01-pets-and-our-health.jpg"  },
+  { "_id": "RS103", "name": "Spacecraft Design", "number": "RS4570", "startDate": "2023-01-10",
+    "endDate": "2023-05-15", "image": "191006152638-01-pets-and-our-health.jpg"  },
+    { "_id": "MK101", "name": "Introduction to Monkeys", "number": "MK101", "startDate": "2023-01-10",
+    "endDate": "2023-05-15", "image": "map.webp"  },
+    { "_id": "MK102", "name": "Peeling Bannanas", "number": "MK102", "startDate": "2023-01-10",
+    "endDate": "2023-05-15", "image": "images.jpg"  },
+    { "_id": "MK103", "name": "Climbing Trees", "number": "MK103", "startDate": "2023-01-10",
+    "endDate": "2023-05-15", "image": "Zoo-animals-scaled.jpg"  }
+   ]
