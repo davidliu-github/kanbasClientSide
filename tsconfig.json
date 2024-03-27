@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-, "../kanbas-node-server-app/src/Kanbas/Courses/routes.js"  ]
+  ]
 }
