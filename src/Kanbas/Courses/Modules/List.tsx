@@ -78,23 +78,23 @@ function ModuleList() {
 
               <FaEllipsisV className="me-2" />
               {module.name}
-              <span className="float-end">
-                <button  className="btn btn-warning"
+              <span className="float-end"></span>
+              <button  className="btn btn-warning btn-sm ms-4"
                   onClick={() => dispatch(setModule(module))}>
                   Edit
                 </button>
 
-                <button className="btn btn-danger"
+                <button className="btn btn-danger btn-sm"
                   onClick={() => handleDeleteModule(module?._id)}>
                   Delete
                 </button>
-
+              <span className="float-end">
                 <FaCheckCircle className="text-success" />
                 <FaPlusCircle className="ms-2" />
                 <FaEllipsisV className="ms-2" />
               </span>
             </div>
-            {selectedModule && selectedModule?._id._id === module._id && (
+            {selectedModule && selectedModule?._id === module._id && (
               <ul className="list-group rounded-0">
                 {module.lessons?.map((lesson: any) => (
                   <li className="list-group-item rounded-0">
