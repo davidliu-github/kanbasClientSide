@@ -22,6 +22,8 @@ const signup = async () => {
       <input value={user.password} onChange={(e) => setUser({
           ...user, password: e.target.value })} />
       <button onClick={signup}> Signup </button>
+
+      
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { User } from "./client";
+import Signup from "./Signup";
 import * as client from "./client";
 export default function Signin() {
   const [credentials, setCredentials] = useState<User>({ _id: "",
@@ -19,6 +20,8 @@ export default function Signin() {
       <input value={credentials.password} onChange={(e) =>
         setCredentials({ ...credentials, password: e.target.value })}/>
       <button onClick={signin}> Signin </button>
+
+        <Signup />
     </div>
   );
 }
