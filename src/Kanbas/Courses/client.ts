@@ -1,7 +1,8 @@
 import axios from "axios";
 const API_BASE = process.env.REACT_APP_API_BASE;
-
 const COURSES_API = `${API_BASE}/api/courses`;
+export interface Course { _id: string; name: string; number: string; startDate: string;
+  endDate: string, image: string, department: string, credits: Number, description: string };
 
 export const createCourse = async (course: any) => {
     const response = await axios.post(`${COURSES_API}`, course);
@@ -20,15 +21,15 @@ export const updateCourse = async (course: { _id: any; }) => {
   return response.data;
 };
 
-export const findCoursesForUser = async (userId: string | undefined) => {
+export const findCourseById = async (courseId: string) => {
   const response = await axios
-    .get(`${COURSES_API}/${userId}/courses`);
+    .get(`${COURSES_API}/${courseId}`);
   return response.data;
 };
 
-export const findCourseById = async (courseId?: string) => {
+export const findAllCourses = async () => {
   const response = await axios.get(
-    `${COURSES_API}/${courseId}`
+    `${COURSES_API}`
   );
   return response.data;
 };

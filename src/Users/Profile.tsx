@@ -9,6 +9,7 @@ export default function Profile() {
     const navigate = useNavigate();
     const fetchProfile = async () => {
         const account = await client.profile();
+        console.log("account info = " + account);
         setProfile(account);
     };
     const save = async () => {
