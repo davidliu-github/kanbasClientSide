@@ -13,9 +13,11 @@ import Assignments from "./Assignments";
 
 function Courses() {
   const { courseId } = useParams();
+
   console.log("courseId: " + courseId);
   const COURSES_API = "http://localhost:4000/api/courses";
   const [course, setCourse] = useState<any>({ _id: "" });
+  {}
   const findCourseById = async (courseId?: string) => {
     const response = await axios.get(
       `${COURSES_API}/${courseId}`
@@ -43,7 +45,7 @@ function Courses() {
           <h4 className="inline">
             &nbsp;
             <a href="#">
-            {course?.number} {course?.startDate}
+            {course?.id} {course?.startDate}
             </a>
             {topText}
           </h4>

@@ -71,7 +71,7 @@ export default function Kanbas() {
                 addNewCourse={addNewCourse}
                 deleteCourse={deleteCourse}
                 updateCourse={updateCourse} />} />
-            <Route path="Courses/:courseId/*" element={<Courses />} />
+            <Route path="Courses/:courseId/:courseShortId/*" element={<Courses />} />
           </Routes>
 
         </div>

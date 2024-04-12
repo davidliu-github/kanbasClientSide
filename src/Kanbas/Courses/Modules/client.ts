@@ -10,9 +10,9 @@ export const deleteModule = async (moduleId: string) => {
   return response.data;
 };
 
-export const createModule = async (courseId: any, module: any) => {
+export const createModule = async (module: any) => {
   const response = await axios.post(
-    `${COURSES_API}/${courseId}/modules`,
+    `${MODULES_API}`,
     module
   );
   return response.data;

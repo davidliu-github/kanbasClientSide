@@ -19,7 +19,7 @@ function KanbasNavigation() {
         <li className="pt-4"><a href="http://northeastern.edu">N</a></li>
       {links.map((link, index) => (
         <li key={index} className={pathname.includes(link.label) ? "wd-active" : ""}>
-          <Link to={`/Kanbas/${link.label === "Courses" ? "Courses/RS101" : link.label}`}> <div>{link.icon}</div> {link.label} </Link>
+          <Link to={`/Kanbas/${link.label === "Courses" ? "Courses/6615c1cf5a6f35bb47980b49/RS101" : link.label}`}> <div>{link.icon}</div> {link.label} </Link>
         
         </li>
       ))}

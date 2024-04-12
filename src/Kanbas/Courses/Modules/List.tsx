@@ -15,7 +15,7 @@ import { KanbasState } from "../../store";
 function ModuleList() {
 
   const handleAddModule = () => {
-    client.createModule(courseId, module).then((module) => {
+    client.createModule(module).then((module) => {
       dispatch(addModule(module));
     });
   };
@@ -31,14 +31,15 @@ function ModuleList() {
     dispatch(updateModule(module));
   };
 
-  const { courseId } = useParams();
+  const { courseId, courseShortId } = useParams();
+
   useEffect(() => {
-    client.findModulesForCourse(courseId)
+    client.findModulesForCourse(courseShortId)
       .then((modules) =>{dispatch(setModules(modules));
         console.log("modules" + modules);
          });
     
-  }, [courseId]);
+  }, [courseShortId]);
 
   const moduleList = useSelector((state: KanbasState) =>
     state.modulesReducer.modules);
@@ -62,18 +63,18 @@ function ModuleList() {
             Update
           </button>
           <input className="form-control"
+            value={module.id}
+            onChange={(e) =>
+              dispatch(setModule({ ...module, id: e.target.value }))
+            } />
+          <textarea className="form-control"
             value={module.name}
             onChange={(e) =>
               dispatch(setModule({ ...module, name: e.target.value }))
             } />
-          <textarea className="form-control"
-            value={module.description}
-            onChange={(e) =>
-              dispatch(setModule({ ...module, description: e.target.value }))
-            } />
         </li>
 
-        {moduleList.filter((module) => module.course === courseId).map((module) => (
+        {moduleList.filter((module) => module.course === courseShortId).map((module) => (
           <li
             className="list-group-item p-0 rounded-0"
             onClick={() => setSelectedModule(module)}>
