@@ -18,9 +18,8 @@ const COURSES_API = `${API_BASE}/api/courses/`;
 
 export default function Kanbas() {
   const [courses, setCourses] = useState<Course[]>([]);
-  const [course, setCourse] = useState({
-    _id: "", name: "", number: "",
-    startDate: "", endDate: "", image: "", term: "",
+  const [course, setCourse] = useState({_id: "", id: "", name: "", number: "",
+    startDate: "", endDate: "", image: "Zoo-animals-scaled.jpg", term: "",
     department: "", credits: 0, description: ""
   });
 
@@ -32,12 +31,13 @@ export default function Kanbas() {
   const addNewCourse = async () => {
     const newCourse = await client.createCourse(course);
     setCourses([newCourse, ...courses]);
+    fetchCourses();
   };
 
-  const deleteCourse = async (courseId: any) => {
+  const deleteCourse = async (course: any) => {
     try {
-      await client.deleteCourse(courseId);
-      setCourses(courses.filter((c) => c._id !== courseId));
+      await client.deleteCourse(course);
+      setCourses(courses.filter((c) => c._id !== course._id));
     } catch (error) {
       console.log(error);
     }
@@ -47,11 +47,14 @@ export default function Kanbas() {
     try {
       await client.updateCourse(course);
       setCourses(courses.map((c) => c._id === course._id ? course : c));
+      fetchCourses();
     } catch (error) {
       console.log(error);
     }
   };
+
   useEffect(() => { fetchCourses(); }, []);
+
   return (
     <Provider store={store}>
       <div className="d-flex">

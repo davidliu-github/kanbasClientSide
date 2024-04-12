@@ -34,8 +34,9 @@ function ModuleList() {
   const { courseId } = useParams();
   useEffect(() => {
     client.findModulesForCourse(courseId)
-      .then((modules) =>{dispatch(setModules(modules))
-         console.log("modules" + modules);});
+      .then((modules) =>{dispatch(setModules(modules));
+        console.log("modules" + modules);
+         });
     
   }, [courseId]);
 
@@ -46,6 +47,7 @@ function ModuleList() {
   const dispatch = useDispatch();
 
   const [selectedModule, setSelectedModule] = useState(moduleList[0]);
+  
   return (
     <>
       {/* <!-- Add buttons here --> */}

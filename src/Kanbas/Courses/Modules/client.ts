@@ -27,5 +27,6 @@ export const updateModule = async (module: { _id: any; }) => {
 export const findModulesForCourse = async (courseId: string | undefined) => {
   const response = await axios
     .get(`${COURSES_API}/${courseId}/modules`);
+    console.log("findmodulesforcourse" + response.data);
   return response.data;
 };
