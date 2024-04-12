@@ -1,8 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
-  modules: [] as { _id: string; name: string; description: string }[],
-  module: { name: "New Module Name", description: "New Description" },
-};
+  modules: [{_id: "", name: "", course: "", lessons: []}],
+  module: {name: "", lessons: []},
+}
 
 
 const modulesSlice = createSlice({

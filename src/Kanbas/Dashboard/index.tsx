@@ -42,7 +42,7 @@ function Dashboard(
                     {course.name}
                   </Link>
                   <p className="card-text">{course.name}</p>
-                  <Link to={`/Kanbas/Courses/${course._id}/Home`} className="btn btn-primary">
+                  <Link to={`/Kanbas/Courses/${course.id}/Home`} className="btn btn-primary">
                     Go </Link>
                     <button className="btn btn-danger float-end" onClick={(event) => {
                       event.preventDefault();

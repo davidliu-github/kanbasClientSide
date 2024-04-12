@@ -13,6 +13,7 @@ import {
 import * as client from "./client";
 import { KanbasState } from "../../store";
 function ModuleList() {
+
   const handleAddModule = () => {
     client.createModule(courseId, module).then((module) => {
       dispatch(addModule(module));
@@ -34,7 +35,7 @@ function ModuleList() {
   useEffect(() => {
     client.findModulesForCourse(courseId)
       .then((modules) =>{dispatch(setModules(modules))
-         console.log(modules);});
+         console.log("modules" + modules);});
     
   }, [courseId]);
 
