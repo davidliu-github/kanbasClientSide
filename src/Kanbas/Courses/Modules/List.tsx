@@ -36,7 +36,7 @@ function ModuleList() {
   useEffect(() => {
     client.findModulesForCourse(courseShortId)
       .then((modules) =>{dispatch(setModules(modules));
-        console.log("modules" + modules);
+        console.log("USEEFFECT TRIGGERED modules" + modules);
          });
     
   }, [courseShortId]);
@@ -62,15 +62,20 @@ function ModuleList() {
             onClick={handleUpdateModule}>
             Update
           </button>
-          <input className="form-control"
+          <input className="form-control" placeholder="id"
             value={module.id}
             onChange={(e) =>
               dispatch(setModule({ ...module, id: e.target.value }))
             } />
-          <textarea className="form-control"
+          <input className="form-control" placeholder="name"
             value={module.name}
             onChange={(e) =>
               dispatch(setModule({ ...module, name: e.target.value }))
+            } />
+          <input className="form-control" placeholder="course name ex: RS101"
+            value={module.course}
+            onChange={(e) =>
+              dispatch(setModule({ ...module, course: e.target.value }))
             } />
         </li>
 
